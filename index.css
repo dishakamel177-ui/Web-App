@@ -1,0 +1,35 @@
+
+section h1{
+    font:100;
+    color: white;
+    text-align: center;
+     margin-top: 80px;
+     margin-bottom: 1px ;
+}
+
+section p{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+
+}
+
+section a{
+    border-radius: 20px;
+    background-color:navy;
+    margin-left: 700px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover{
+    color:#778899;
+}
+
+main{
+    margin-bottom: 380px;
+}
+
+

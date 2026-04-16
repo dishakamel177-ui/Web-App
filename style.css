@@ -1,0 +1,47 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+nav ul li a{
+    border-radius: 20px;
+    background-color:navy;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #778899;
+}   
+   
+   body {
+ background-image: url(imgs/pexels-photo-226172.jpeg) ;
+}
+
+h1{
+    font-weight:900;
+    font-size: 35px;
+}
+
+p,caption{
+    font-style: italic;
+}
+
+footer{
+    margin-left: 40px;
+    margin-top: 180px;
+    color: black;
+}
+
+@media (max-width: 600px) {
+
+  nav {
+    flex-direction: column;
+  }
+
+  footer {
+    text-align: center;
+  }
+}

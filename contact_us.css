@@ -1,0 +1,43 @@
+header h1{
+    color: white;
+    margin-top: 90px;
+    margin-left: 100px ;
+    margin-bottom: 20px;
+}
+
+section{
+    margin-left: 100px;
+}
+
+
+section form button{
+        background-color:navy;
+
+}
+
+section form input,select{
+     width: 220px;
+    height: 22px;
+   border-radius: 20px;
+   background: #125f8e;
+}
+
+section form input::placeholder {
+  color: white;
+}
+section form button,select{
+    color: white;
+}
+
+textarea{
+    border-radius: 10px;
+    width: 165px;
+    height: 65px;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+  }
+}

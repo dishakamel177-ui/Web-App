@@ -1,0 +1,53 @@
+header h1{
+    color: white;
+    text-align: center;
+}
+
+table{
+    border: 5px #778899 solid;
+    border-spacing: 0px;
+    width: 65%;
+    height: 350px ;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
+
+table thead th{
+    background: #125f8e;
+    height: 60px;
+    border: 2px #778899 solid;
+}
+
+table tbody td{
+    background:#c5e9ff ;
+    text-align: center;
+    border: 2px #778899 solid;
+}
+
+
+
+section a{
+    border-radius: 20px;
+    background-color:navy;
+    margin-left: 700px;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+section a:hover{
+    color: #778899;
+
+}
+
+main{
+    margin-top: 10px;
+    margin-bottom: 100;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    flex-direction: column;
+  }
+}
